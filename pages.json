@@ -1,17 +1,77 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cata/cata",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "得意购物",
+		"navigationBarBackgroundColor": "#0000FF",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar":{
+		"selectedColor":"#c00000",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath":"static/api.png",
+				"selectedIconPath":"static/apiHL.png"
+			},
+			{
+				"pagePath":"pages/cata/cata",
+				"text":"分类",
+				"iconPath":"static/api.png",
+				"selectedIconPath":"static/apiHL.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"购物车",
+				"iconPath":"static/api.png",
+				"selectedIconPath":"static/apiHL.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/api.png",
+				"selectedIconPath":"static/apiHL.png"
+			}
+		]
 	}
 }
