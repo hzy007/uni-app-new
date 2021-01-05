@@ -3,7 +3,7 @@
             "path" : "pages/home/home",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                // "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -12,7 +12,7 @@
             "path" : "pages/cata/cata",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                // "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -21,7 +21,7 @@
             "path" : "pages/cart/cart",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                // "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -30,12 +30,37 @@
             "path" : "pages/my/my",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                // "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
         }
     ],
+	"subPackages":[
+		// 这是一个分包
+		{
+			"root":"subpkg",//指定包的根目录
+			"pages":[{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]    //指定当前这个包有几个页面
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "得意购物",
